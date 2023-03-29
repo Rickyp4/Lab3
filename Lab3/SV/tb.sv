@@ -23,7 +23,7 @@ module tb ();
      begin
 	// Initialization of board (X is going)
 	#0   rst = 1'b1;
-	#10000 rst = 1'b0;
+	#100 rst = 1'b0;
 
      end
    
